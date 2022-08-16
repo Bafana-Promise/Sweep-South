@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Roboto:wght@300&display=swap');
 
-
+$skyBlue: rgb(89, 160, 238);
+$white:white;
 *{
    font-family: 'Open Sans', sans-serif;
-//    font-family: roboto;
 }
 .cursor-pointer{
     cursor: pointer;
@@ -27,11 +27,36 @@
     font-weight: 600;
 }
 .tool-bar-btn{
-    color: white;
     padding: 0px 10px;
     width: 165px;
-    background-color: rgb(89, 160, 238);
     height: 40px;
     border-radius: 5px;
-    border: 1px solid rgb(89, 160, 238);
+}
+.bodyHeight{
+    height: calc(100vh - 10%);
+}
+.overflowy{
+    overflow-y: auto;
+}
+.skyBlueBorder,.tool-bar-btn{
+        border: 1px solid $skyBlue;
+}
+.bgSkyBlue,.tool-bar-btn{
+    background-color: $skyBlue;
+}
+.whiteText,.tool-bar-btn{
+    color: $white;
+}
+.borderRadious50{
+    border-radius: 50%;
+}
+.equalHeightWidth{
+    width: 50px;
+    height: 50px;
+}
+.paddingSide{
+    padding: 0 10px;
+}
+.width65{
+    width:65%;
 }
