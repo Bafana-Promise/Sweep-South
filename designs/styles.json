@@ -1,1 +1,10 @@
-{"classes":[]}
+{
+    "classes": [
+        "cursor-pointer",
+        "padding-10px",
+        "tool-bar-height",
+        "tool-bar-img",
+        "tool-bar-text",
+        "tool-bar-btn"
+    ]
+}

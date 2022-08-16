@@ -2,3 +2,36 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Roboto:wght@300&display=swap');
+
+
+*{
+   font-family: 'Open Sans', sans-serif;
+//    font-family: roboto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.padding-10px{
+    padding: 10px;
+}
+.tool-bar-height{
+    height: 10%;
+}
+.tool-bar-img{
+    width: 185px;
+}
+.tool-bar-text{
+    color: rgb(61, 57, 53);     
+    font-weight: 600;
+}
+.tool-bar-btn{
+    color: white;
+    padding: 0px 10px;
+    width: 165px;
+    background-color: rgb(89, 160, 238);
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(89, 160, 238);
+}

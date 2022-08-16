@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "headerItems",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_F3EkTgLOIoaK5YFp",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_h9xJKJ0qzolEvjEj"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_h9xJKJ0qzolEvjEj",
+        "type": "Script",
+        "z": "sd_bFGjqVEp0YosW534",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.headerItems = [\n    { name: \"087-711-0573\" },\n    { name: \"SERVICES\" },\n    { name: \"CONNECT\" },\n    { name: \"INVITE & EARN\" },\n    { name: \"HELP\" },\n    { name: \"SIGN IN\" }\n]",
+        "functionName": "sd_h9xJKJ0qzolEvjEj",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
         "wires": [
             []
         ],

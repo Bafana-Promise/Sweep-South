@@ -64,10 +64,30 @@ export class homeComponent {
 
   sd_F3EkTgLOIoaK5YFp(bh) {
     try {
+      this.page.headerItems = [];
+      bh = this.sd_h9xJKJ0qzolEvjEj(bh);
       //appendnew_next_sd_F3EkTgLOIoaK5YFp
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_F3EkTgLOIoaK5YFp');
+    }
+  }
+
+  sd_h9xJKJ0qzolEvjEj(bh) {
+    try {
+      const page = this.page;
+      page.headerItems = [
+        { name: '087-711-0573' },
+        { name: 'SERVICES' },
+        { name: 'CONNECT' },
+        { name: 'INVITE & EARN' },
+        { name: 'HELP' },
+        { name: 'SIGN IN' },
+      ];
+      //appendnew_next_sd_h9xJKJ0qzolEvjEj
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_h9xJKJ0qzolEvjEj');
     }
   }
 

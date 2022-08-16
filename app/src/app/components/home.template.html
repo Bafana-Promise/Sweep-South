@@ -1,1 +1,27 @@
-<div id="angularRoot"></div>
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="row wrap" class="tool-bar-height padding-10px" fxLayoutAlign="space-between center" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="16" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="Web/Icons/sweepheader.webp" class="tool-bar-img"></div>
+      <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true">
+          <div fxLayout="column wrap" fxFlex="82" fxLayoutAlign="end end" [fxShow]="true">
+            <div fxLayout="row wrap" fxLayoutGap="50px" fxLayoutAlign="space-between center" [fxShow]="true">
+              <div fxLayout="column wrap" class="tool-bar-text cursor-pointer" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.headerItems">
+                <div>
+                  {{item.name}}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div fxLayout="column wrap" class="cursor-pointer tool-bar-btn" fxFlex="16" fxLayoutAlign="center stretch" [fxShow]="true">
+            <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true">
+              <div>
+                BOOK A SERVICE </div>
+              <mat-icon>expand_more</mat-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
